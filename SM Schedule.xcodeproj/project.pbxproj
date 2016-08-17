@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F6492E1D64E36E0043BBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6492D1D64E36E0043BBC5 /* AppDelegate.swift */; };
+		47F649301D64E36E0043BBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6492F1D64E36E0043BBC5 /* ViewController.swift */; };
+		47F649331D64E36E0043BBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F649311D64E36E0043BBC5 /* Main.storyboard */; };
+		47F649351D64E36E0043BBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F649341D64E36E0043BBC5 /* Assets.xcassets */; };
+		47F649381D64E36E0043BBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F649361D64E36E0043BBC5 /* LaunchScreen.storyboard */; };
+		47F649431D64E36E0043BBC5 /* SM_ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F649421D64E36E0043BBC5 /* SM_ScheduleTests.swift */; };
+		47F6494E1D64E36E0043BBC5 /* SM_ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F6494D1D64E36E0043BBC5 /* SM_ScheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F6493F1D64E36E0043BBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F649221D64E36E0043BBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F649291D64E36E0043BBC5;
+			remoteInfo = "SM Schedule";
+		};
+		47F6494A1D64E36E0043BBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F649221D64E36E0043BBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F649291D64E36E0043BBC5;
+			remoteInfo = "SM Schedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F6492A1D64E36E0043BBC5 /* SM Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SM Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F6492D1D64E36E0043BBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47F6492F1D64E36E0043BBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47F649321D64E36E0043BBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F649341D64E36E0043BBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F649371D64E36E0043BBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F649391D64E36E0043BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F6493E1D64E36E0043BBC5 /* SM ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM ScheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F649421D64E36E0043BBC5 /* SM_ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ScheduleTests.swift; sourceTree = "<group>"; };
+		47F649441D64E36E0043BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F649491D64E36E0043BBC5 /* SM ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM ScheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F6494D1D64E36E0043BBC5 /* SM_ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SM_ScheduleUITests.swift; sourceTree = "<group>"; };
+		47F6494F1D64E36E0043BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F649271D64E36E0043BBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F6493B1D64E36E0043BBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F649461D64E36E0043BBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F649211D64E36E0043BBC5 = {
+			isa = PBXGroup;
+			children = (
+				47F6492C1D64E36E0043BBC5 /* SM Schedule */,
+				47F649411D64E36E0043BBC5 /* SM ScheduleTests */,
+				47F6494C1D64E36E0043BBC5 /* SM ScheduleUITests */,
+				47F6492B1D64E36E0043BBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F6492B1D64E36E0043BBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F6492A1D64E36E0043BBC5 /* SM Schedule.app */,
+				47F6493E1D64E36E0043BBC5 /* SM ScheduleTests.xctest */,
+				47F649491D64E36E0043BBC5 /* SM ScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F6492C1D64E36E0043BBC5 /* SM Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				47F6492D1D64E36E0043BBC5 /* AppDelegate.swift */,
+				47F6492F1D64E36E0043BBC5 /* ViewController.swift */,
+				47F649311D64E36E0043BBC5 /* Main.storyboard */,
+				47F649341D64E36E0043BBC5 /* Assets.xcassets */,
+				47F649361D64E36E0043BBC5 /* LaunchScreen.storyboard */,
+				47F649391D64E36E0043BBC5 /* Info.plist */,
+			);
+			path = "SM Schedule";
+			sourceTree = "<group>";
+		};
+		47F649411D64E36E0043BBC5 /* SM ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F649421D64E36E0043BBC5 /* SM_ScheduleTests.swift */,
+				47F649441D64E36E0043BBC5 /* Info.plist */,
+			);
+			path = "SM ScheduleTests";
+			sourceTree = "<group>";
+		};
+		47F6494C1D64E36E0043BBC5 /* SM ScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F6494D1D64E36E0043BBC5 /* SM_ScheduleUITests.swift */,
+				47F6494F1D64E36E0043BBC5 /* Info.plist */,
+			);
+			path = "SM ScheduleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F649291D64E36E0043BBC5 /* SM Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F649521D64E36E0043BBC5 /* Build configuration list for PBXNativeTarget "SM Schedule" */;
+			buildPhases = (
+				47F649261D64E36E0043BBC5 /* Sources */,
+				47F649271D64E36E0043BBC5 /* Frameworks */,
+				47F649281D64E36E0043BBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SM Schedule";
+			productName = "SM Schedule";
+			productReference = 47F6492A1D64E36E0043BBC5 /* SM Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F6493D1D64E36E0043BBC5 /* SM ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F649551D64E36E0043BBC5 /* Build configuration list for PBXNativeTarget "SM ScheduleTests" */;
+			buildPhases = (
+				47F6493A1D64E36E0043BBC5 /* Sources */,
+				47F6493B1D64E36E0043BBC5 /* Frameworks */,
+				47F6493C1D64E36E0043BBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F649401D64E36E0043BBC5 /* PBXTargetDependency */,
+			);
+			name = "SM ScheduleTests";
+			productName = "SM ScheduleTests";
+			productReference = 47F6493E1D64E36E0043BBC5 /* SM ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F649481D64E36E0043BBC5 /* SM ScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F649581D64E36E0043BBC5 /* Build configuration list for PBXNativeTarget "SM ScheduleUITests" */;
+			buildPhases = (
+				47F649451D64E36E0043BBC5 /* Sources */,
+				47F649461D64E36E0043BBC5 /* Frameworks */,
+				47F649471D64E36E0043BBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F6494B1D64E36E0043BBC5 /* PBXTargetDependency */,
+			);
+			name = "SM ScheduleUITests";
+			productName = "SM ScheduleUITests";
+			productReference = 47F649491D64E36E0043BBC5 /* SM ScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F649221D64E36E0043BBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = EduApp;
+				TargetAttributes = {
+					47F649291D64E36E0043BBC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					47F6493D1D64E36E0043BBC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 47F649291D64E36E0043BBC5;
+					};
+					47F649481D64E36E0043BBC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 47F649291D64E36E0043BBC5;
+					};
+				};
+			};
+			buildConfigurationList = 47F649251D64E36E0043BBC5 /* Build configuration list for PBXProject "SM Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F649211D64E36E0043BBC5;
+			productRefGroup = 47F6492B1D64E36E0043BBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F649291D64E36E0043BBC5 /* SM Schedule */,
+				47F6493D1D64E36E0043BBC5 /* SM ScheduleTests */,
+				47F649481D64E36E0043BBC5 /* SM ScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F649281D64E36E0043BBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F649381D64E36E0043BBC5 /* LaunchScreen.storyboard in Resources */,
+				47F649351D64E36E0043BBC5 /* Assets.xcassets in Resources */,
+				47F649331D64E36E0043BBC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F6493C1D64E36E0043BBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F649471D64E36E0043BBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F649261D64E36E0043BBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F649301D64E36E0043BBC5 /* ViewController.swift in Sources */,
+				47F6492E1D64E36E0043BBC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F6493A1D64E36E0043BBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F649431D64E36E0043BBC5 /* SM_ScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F649451D64E36E0043BBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F6494E1D64E36E0043BBC5 /* SM_ScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F649401D64E36E0043BBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F649291D64E36E0043BBC5 /* SM Schedule */;
+			targetProxy = 47F6493F1D64E36E0043BBC5 /* PBXContainerItemProxy */;
+		};
+		47F6494B1D64E36E0043BBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F649291D64E36E0043BBC5 /* SM Schedule */;
+			targetProxy = 47F6494A1D64E36E0043BBC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F649311D64E36E0043BBC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F649321D64E36E0043BBC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F649361D64E36E0043BBC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F649371D64E36E0043BBC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F649501D64E36E0043BBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F649511D64E36E0043BBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F649531D64E36E0043BBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SM Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FireApps.SM-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47F649541D64E36E0043BBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SM Schedule/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FireApps.SM-Schedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47F649561D64E36E0043BBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SM ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FireApps.SM-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM Schedule.app/SM Schedule";
+			};
+			name = Debug;
+		};
+		47F649571D64E36E0043BBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SM ScheduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FireApps.SM-ScheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM Schedule.app/SM Schedule";
+			};
+			name = Release;
+		};
+		47F649591D64E36E0043BBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SM ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FireApps.SM-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SM Schedule";
+			};
+			name = Debug;
+		};
+		47F6495A1D64E36E0043BBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SM ScheduleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FireApps.SM-ScheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SM Schedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F649251D64E36E0043BBC5 /* Build configuration list for PBXProject "SM Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F649501D64E36E0043BBC5 /* Debug */,
+				47F649511D64E36E0043BBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F649521D64E36E0043BBC5 /* Build configuration list for PBXNativeTarget "SM Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F649531D64E36E0043BBC5 /* Debug */,
+				47F649541D64E36E0043BBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47F649551D64E36E0043BBC5 /* Build configuration list for PBXNativeTarget "SM ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F649561D64E36E0043BBC5 /* Debug */,
+				47F649571D64E36E0043BBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47F649581D64E36E0043BBC5 /* Build configuration list for PBXNativeTarget "SM ScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F649591D64E36E0043BBC5 /* Debug */,
+				47F6495A1D64E36E0043BBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F649221D64E36E0043BBC5 /* Project object */;
+}
