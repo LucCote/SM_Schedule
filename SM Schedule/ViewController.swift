@@ -210,7 +210,6 @@ class ViewController: UIViewController {
         
         view.addSubview(containerView)
         view.addSubview(viewSwitchContainerView)
-        view.addSubview(scheduleImage)
         view.addSubview(mapViewContainer)
         
         viewSwitchContainerView.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor).active = true
@@ -297,6 +296,7 @@ class ViewController: UIViewController {
     }
     
     func scheduleButtonPress(){
+        view.addSubview(scheduleImage)
         containerViewXConstraint?.active = false
         containerViewYConstraint?.active = false
         containerViewHConstraint?.active = false
@@ -328,16 +328,7 @@ class ViewController: UIViewController {
     }
     
     func mapButtonPress(){
-        containerViewXConstraint?.active = false
-        containerViewYConstraint?.active = false
-        containerViewHConstraint?.active = false
-        containerViewWConstraint?.active = false
-        
-        scheduleContainerViewHConstraint?.active = false
-        scheduleContainerViewYConstraint?.active = false
-        scheduleContainerViewWConstraint?.active = false
-        scheduleContainerViewXConstraint?.active = false
-        scheduleImage.image = nil
+        scheduleImage.removeFromSuperview()
         
         mapContainerViewXConstraint?.active = true
         mapContainerViewWConstraint?.active = true
@@ -361,12 +352,7 @@ class ViewController: UIViewController {
     }
     
     func homeButtonPress(){
-        scheduleContainerViewHConstraint?.active = false
-        scheduleContainerViewYConstraint?.active = false
-        scheduleContainerViewWConstraint?.active = false
-        scheduleContainerViewXConstraint?.active = false
-        scheduleImage.image = nil
-        
+        scheduleImage.removeFromSuperview()
         mapContainerViewXConstraint?.active = false
         mapContainerViewWConstraint?.active = false
         mapContainerViewYConstraint?.active = false
