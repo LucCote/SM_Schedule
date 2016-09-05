@@ -167,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				47608A8B1D790DAC00B07D4E /* Helpers */,
-				47F649711D70A3CB0043BBC5 /* Days setters */,
+				47F649711D70A3CB0043BBC5 /* Organizers */,
 				47F6492F1D64E36E0043BBC5 /* ViewController.swift */,
 				47F649621D64E9B30043BBC5 /* makeUserClasses.swift */,
 				47F6495D1D64E6940043BBC5 /* LoginController.swift */,
@@ -175,13 +175,13 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		47F649711D70A3CB0043BBC5 /* Days setters */ = {
+		47F649711D70A3CB0043BBC5 /* Organizers */ = {
 			isa = PBXGroup;
 			children = (
 				474003621D777CDB00140E49 /* ScheduleViewAndMapView.swift */,
 				47F649721D70BE2C0043BBC5 /* ViewControllerExtensions.swift */,
 			);
-			name = "Days setters";
+			name = Organizers;
 			sourceTree = "<group>";
 		};
 		79E16D7EFE746288AFC4CDCC /* Frameworks */ = {

@@ -104,6 +104,25 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
             }
             }, withCancelBlock: nil)
     }
+    
+    func returnToOriginalScheduleImage(){
+        guard let uid = FIRAuth.auth()?.currentUser?.uid else{
+            return
+        }
+        let ref = FIRDatabase.database().reference().child("users").child(uid).child("scheduleImage")
+        let alertController = UIAlertController(title: "Reset Image", message: "Are You Sure You Want To Reset Your Schedule Image?", preferredStyle:UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "Yes", style: .Default, handler: { (action: UIAlertAction!) in
+            ref.setValue(nil)
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }))
+        
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: { (action: UIAlertAction!) in
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }))
+        
+        presentViewController(alertController, animated: true, completion: nil)
+        
+    }
 
     
 }

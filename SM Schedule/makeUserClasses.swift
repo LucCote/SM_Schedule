@@ -68,6 +68,7 @@ class makeUserClasses: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavBar()
         view.backgroundColor = UIColor(red: 61/255, green: 91/255, blue: 151/255, alpha: 1)
         // Do view setup here.
         view.addSubview(inputsContainerView)
@@ -163,6 +164,30 @@ class makeUserClasses: UIViewController {
         }
         
         
+    }
+    
+    func setupNavBar(){
+        guard let uid = FIRAuth.auth()?.currentUser?.uid else{
+            return
+        }
+        let ref = FIRDatabase.database().reference().child("users").child(uid).child("classes").child("class1")
+        ref.observeSingleEventOfType(.Value, withBlock: { (snapshot) in
+            if snapshot.value as? String != nil{
+                let navigationBar = UINavigationBar(frame: CGRectMake(0, 0, self.view.frame.size.width, 60))
+                navigationBar.backgroundColor = UIColor.whiteColor()
+                let navigationItem = UINavigationItem()
+                let leftButton =  UIBarButtonItem(title: "Cancel", style:   UIBarButtonItemStyle.Plain, target: self, action: #selector(self.handleCancel))
+                let title = "Change Classes"
+                navigationItem.leftBarButtonItem = leftButton
+                navigationItem.title = title
+                navigationBar.items = [navigationItem]
+                self.view.addSubview(navigationBar)
+            }
+        }, withCancelBlock: nil)
+    }
+    
+    func handleCancel() {
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {

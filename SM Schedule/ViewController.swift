@@ -93,6 +93,8 @@ class ViewController: UIViewController {
         b.setImage(UIImage(named: "scheduleIcon"), forState: .Normal)
         b.tintColor = UIColor.grayColor()
         b.addTarget(self, action: #selector(scheduleButtonPress), forControlEvents: .TouchUpInside)
+        b.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(returnToOriginalScheduleImage)))
+        b.userInteractionEnabled = true
         return b
     }()
     
@@ -201,8 +203,6 @@ class ViewController: UIViewController {
 //    }()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("loadView")
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .Plain, target: self, action: #selector(handleLogout))
         checkIfUserLoggedIn()
         let image = UIImage(named: "edit_property")
@@ -644,10 +644,7 @@ class ViewController: UIViewController {
 
     }
     
-    func doubletap(){
-        print("diubletap")
-    }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
