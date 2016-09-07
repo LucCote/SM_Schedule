@@ -29,10 +29,10 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
 //        scheduleImage.heightAnchor.constraintEqualToAnchor(scheduleViewContainer.heightAnchor).active = true
 //        scheduleImage.widthAnchor.constraintEqualToAnchor(scheduleViewContainer.widthAnchor).active = true
         
-        mapContainerViewHConstraint = mapViewContainer.topAnchor.constraintEqualToAnchor(view.topAnchor, constant: 64)
-        mapContainerViewYConstraint = mapViewContainer.bottomAnchor.constraintEqualToAnchor(viewSwitchContainerView.topAnchor)
-        mapContainerViewWConstraint = mapViewContainer.widthAnchor.constraintEqualToAnchor(view.widthAnchor)
-        mapContainerViewXConstraint = mapViewContainer.centerXAnchor.constraintEqualToAnchor(view.centerXAnchor)
+        mapContainerViewHConstraint = mapImage.topAnchor.constraintEqualToAnchor(view.topAnchor, constant: 64)
+        mapContainerViewYConstraint = mapImage.bottomAnchor.constraintEqualToAnchor(viewSwitchContainerView.topAnchor)
+        mapContainerViewWConstraint = mapImage.widthAnchor.constraintEqualToAnchor(view.widthAnchor)
+        mapContainerViewXConstraint = mapImage.centerXAnchor.constraintEqualToAnchor(view.centerXAnchor)
         mapContainerViewXConstraint?.active = false
         mapContainerViewWConstraint?.active = false
         mapContainerViewYConstraint?.active = false

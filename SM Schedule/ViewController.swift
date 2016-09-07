@@ -110,10 +110,18 @@ class ViewController: UIViewController {
         return b
     }()
     
-    let scheduleViewContainer: UIView = {
-        let v = UIView()
+    let scheduleViewContainer: UIImageView = {
+        let v = UIImageView()
         v.translatesAutoresizingMaskIntoConstraints = false
+        v.image = UIImage(named: "schoolMap")
         return v
+    }()
+    
+    let mapImage: UIImageView = {
+    let v = UIImageView()
+    v.translatesAutoresizingMaskIntoConstraints = false
+    v.image = UIImage(named: "schoolMap")
+    return v
     }()
     
     lazy var scheduleImage: UIImageView = {
@@ -210,7 +218,6 @@ class ViewController: UIViewController {
         
         view.addSubview(containerView)
         view.addSubview(viewSwitchContainerView)
-        view.addSubview(mapViewContainer)
         
         viewSwitchContainerView.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor).active = true
         viewSwitchContainerView.leftAnchor.constraintEqualToAnchor(view.leftAnchor).active = true
@@ -296,6 +303,7 @@ class ViewController: UIViewController {
     }
     
     func scheduleButtonPress(){
+        mapImage.removeFromSuperview()
         view.addSubview(scheduleImage)
         containerViewXConstraint?.active = false
         containerViewYConstraint?.active = false
@@ -329,6 +337,7 @@ class ViewController: UIViewController {
     
     func mapButtonPress(){
         scheduleImage.removeFromSuperview()
+        view.addSubview(mapImage)
         
         mapContainerViewXConstraint?.active = true
         mapContainerViewWConstraint?.active = true
@@ -352,6 +361,7 @@ class ViewController: UIViewController {
     }
     
     func homeButtonPress(){
+        mapImage.removeFromSuperview()
         scheduleImage.removeFromSuperview()
         mapContainerViewXConstraint?.active = false
         mapContainerViewWConstraint?.active = false
