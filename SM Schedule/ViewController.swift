@@ -110,13 +110,6 @@ class ViewController: UIViewController {
         return b
     }()
     
-    let scheduleViewContainer: UIImageView = {
-        let v = UIImageView()
-        v.translatesAutoresizingMaskIntoConstraints = false
-        v.image = UIImage(named: "schoolMap")
-        return v
-    }()
-    
     let mapImage: UIImageView = {
     let v = UIImageView()
     v.translatesAutoresizingMaskIntoConstraints = false
@@ -130,12 +123,6 @@ class ViewController: UIViewController {
         i.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(handleImagePress)))
         i.userInteractionEnabled = true
         return i
-    }()
-    
-    let mapViewContainer: UIWebView = {
-        let v = UIWebView()
-        v.translatesAutoresizingMaskIntoConstraints = false
-        return v
     }()
     
     var containerViewXConstraint: NSLayoutConstraint?
@@ -162,53 +149,7 @@ class ViewController: UIViewController {
     var mapContainerViewHConstraint: NSLayoutConstraint?
     var mapContainerViewWConstraint: NSLayoutConstraint?
     
-//    let secondClass: UILabel = {
-//        let l = UILabel()
-//        l.translatesAutoresizingMaskIntoConstraints = false
-//        l.textColor = UIColor.whiteColor()
-//        l.text = "secondClass"
-//        return l
-//    }()
-//    
-//    let thirdClass: UILabel = {
-//        let l = UILabel()
-//        l.translatesAutoresizingMaskIntoConstraints = false
-//        l.textColor = UIColor.whiteColor()
-//        l.text = "secondClass"
-//        return l
-//    }()
-//    
-//    let fourthClass: UILabel = {
-//        let l = UILabel()
-//        l.translatesAutoresizingMaskIntoConstraints = false
-//        l.textColor = UIColor.whiteColor()
-//        l.text = "secondClass"
-//        return l
-//    }()
-//    
-//    let fifthClass: UILabel = {
-//        let l = UILabel()
-//        l.translatesAutoresizingMaskIntoConstraints = false
-//        l.textColor = UIColor.whiteColor()
-//        l.text = "secondClass"
-//        return l
-//    }()
-//    
-//    let sixthClass: UILabel = {
-//        let l = UILabel()
-//        l.translatesAutoresizingMaskIntoConstraints = false
-//        l.textColor = UIColor.whiteColor()
-//        l.text = "secondClass"
-//        return l
-//    }()
-//    
-//    let seventhClass: UILabel = {
-//        let l = UILabel()
-//        l.translatesAutoresizingMaskIntoConstraints = false
-//        l.textColor = UIColor.whiteColor()
-//        l.text = "secondClass"
-//        return l
-//    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .Plain, target: self, action: #selector(handleLogout))
@@ -343,8 +284,6 @@ class ViewController: UIViewController {
         mapContainerViewWConstraint?.active = true
         mapContainerViewYConstraint?.active = true
         mapContainerViewHConstraint?.active = true
-        let requestObj = NSURLRequest(URL: url!);
-        mapViewContainer.loadRequest(requestObj)
         
         scheduleButtonHConstraint?.constant = 56
         scheduleButtonWConstraint?.constant = 56
