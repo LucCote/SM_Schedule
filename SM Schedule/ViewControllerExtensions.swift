@@ -43,7 +43,7 @@ extension ViewController {
             }else if (hour == 8 && minute >= 50) || (hour == 9) || (hour == 10 && minute < 10){
                 getClass2()
                 getLocation2()
-                classStartTime.text = "9:50"
+                classStartTime.text = "9:55"
                 view.backgroundColor = UIColor(red: 212/255, green: 1/255, blue: 232/255, alpha: 1)
             }else if hour == 10 && minute >= 10 && minute < 45{
                 nextClass.text = "X-Block"
@@ -53,7 +53,7 @@ extension ViewController {
             }else if (hour == 10 && minute >= 45) || (hour == 11 && minute < 10){
                 getClass3()
                 getLocation3()
-                classStartTime.text = "10:55"
+                classStartTime.text = "11:00"
                 view.backgroundColor = UIColor(red: 255/255, green: 0/255, blue: 0/255, alpha: 1)
                 
             }else if (hour == 12 && minute < 40) || (hour == 11 && minute >= 10){
@@ -93,7 +93,7 @@ extension ViewController {
             }else if (hour == 8 && minute >= 50) || (hour == 10 && minute < 10) || (hour == 9){
                 getClass1()
                 getLocation1()
-                classStartTime.text = "9:50"
+                classStartTime.text = "9:55"
                 view.backgroundColor = UIColor(red: 0/255, green: 255/255, blue: 65/255, alpha: 1)
             }else if hour == 10 && minute >= 10 && minute < 45{
                 nextClass.text = "X-Block"
@@ -103,7 +103,7 @@ extension ViewController {
             }else if (hour == 10 && minute >= 45) || (hour == 11 && minute < 15) {
                 getClass2()
                 getLocation2()
-                classStartTime.text = "10:55"
+                classStartTime.text = "11:00"
                 view.backgroundColor = UIColor(red: 212/255, green: 1/255, blue: 232/255, alpha: 1)
             }else if (hour == 11 && minute >= 15) || (hour == 12 && minute < 40) {
                 nextClass.text = "Lunch"
@@ -118,7 +118,7 @@ extension ViewController {
             }else if (hour > 13 && hour < 15) || (hour == 13 && minute >= 15) {
                 getClass7()
                 getLocation7()
-                classStartTime.text = "1:40"
+                classStartTime.text = "1:45"
                 view.backgroundColor = UIColor(red: 255/255, green: 234/255, blue: 8/255, alpha: 1)
             }else if hour >= 15 {
                 getClass4()
@@ -175,7 +175,7 @@ extension ViewController {
             }else if (hour == 9) || (hour == 10 && minute < 10) || (hour == 8 && minute >= 50) {
                 getClass4()
                 getLocation4()
-                classStartTime.text = "9:50"
+                classStartTime.text = "9:55"
                 view.backgroundColor = UIColor(red: 232/255, green: 184/255, blue: 12/255, alpha: 1)
             }else if hour == 10 && minute >= 10 && minute < 45{
                 nextClass.text = "X-Block"
@@ -185,7 +185,7 @@ extension ViewController {
             }else if hour == 11 && minute < 15 || hour == 10 && minute >= 45 {
                 getClass2()
                 getLocation2()
-                classStartTime.text = "10:55"
+                classStartTime.text = "11:00"
                 view.backgroundColor = UIColor(red: 212/255, green: 1/255, blue: 232/255, alpha: 1)
             }else if (hour == 12 && minute < 40) || (hour == 11 && minute >= 15) {
                 nextClass.text = "Seated Lunch"
@@ -223,7 +223,7 @@ extension ViewController {
             }else if (hour == 9) || (hour == 10 && minute < 10) || (hour == 8 && minute >= 50){
                 getClass7()
                 getLocation7()
-                classStartTime.text = "9:50"
+                classStartTime.text = "9:55"
                 view.backgroundColor = UIColor(red: 255/255, green: 234/255, blue: 8/255, alpha: 1)
             }else if hour == 10 && minute >= 10 && minute < 45{
                 nextClass.text = "X-Block"
@@ -233,7 +233,7 @@ extension ViewController {
             }else if (hour == 10 && minute >= 45) || (hour == 11 && minute < 20) {
                 getClass5()
                 getLocation5()
-                classStartTime.text = "10:55"
+                classStartTime.text = "11:00"
                 view.backgroundColor = UIColor(red: 7/255, green: 24/255, blue: 232/255, alpha: 1)
             }else if hour == 12 && minute < 40 || hour == 11 && minute >= 20 {
                 nextClass.text = "Lunch"
