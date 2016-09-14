@@ -137,7 +137,7 @@ extension ViewController {
             }else if (hour == 9 && minute < 40) || (hour == 8 && minute >= 20){
                 getClass3()
                 getLocation3()
-                classStartTime.text = "9:20"
+                classStartTime.text = "9:25"
                 view.backgroundColor = UIColor(red: 255/255, green: 0/255, blue: 0/255, alpha: 1)
             }else if (hour == 9 && minute >= 40) || (hour == 10 && minute < 15){
                 nextClass.text = "School Meeting"
@@ -147,7 +147,7 @@ extension ViewController {
             }else if (hour == 10 && minute >= 15) {
                 getClass6()
                 getLocation6()
-                classStartTime.text = "10:30"
+                classStartTime.text = "10:40"
                 view.backgroundColor = UIColor(red: 232/255, green: 106/255, blue: 8/255, alpha: 1)
             }else if (hour == 11) || (hour == 12 && minute < 5){
                 nextClass.text = "Lunch"
@@ -157,7 +157,7 @@ extension ViewController {
             }else if hour == 12 && minute >= 5 {
                 getClass5()
                 getLocation5()
-                classStartTime.text = "12:20"
+                classStartTime.text = "12:30"
                 view.backgroundColor = UIColor(red: 7/255, green: 24/255, blue: 232/255, alpha: 1)
             }else if hour >= 13 {
                 getClass7()
